@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class phptravelsignup {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//SET CHROME DRIVER PROPERTY FOR CHROME BROWSER
@@ -32,11 +32,11 @@ public class phptravelsignup {
 				Character.isUpperCase(firstnameStr.charAt(0));
 
 				if (Character.isUpperCase(firstnameStr.charAt(0))) {
-					System.out.println("Valid captilize first letter");
+					System.out.println("Valid  first name");
 					
 				}
 				else {
-					System.out.println("Unvalid captilize first letter");
+					System.out.println("Unvalid first name");
 				}
 				
 				//ENTER LASTNAME ON INPUT FIELD 
@@ -47,11 +47,11 @@ public class phptravelsignup {
 				Character.isUpperCase(lastnameStr.charAt(0));
 
 				if (Character.isUpperCase(lastnameStr.charAt(0))) {
-					System.out.println("Valid captilize last letter");
+					System.out.println("Valid last name");
 					
 				}
 				else {
-					System.out.println("Unvalid captilize last letter");
+					System.out.println("Unvalid last name");
 				}
 				
 				
@@ -122,9 +122,11 @@ public class phptravelsignup {
 			 }
 				//SUBMIT THE FORM BY CLICKING SIGN UP
 //				 Sign Up
+
+
 		       driver.findElement (By.xpath("//*[@id=\'headersignupform\']/div[8]/button/i")).submit();
 			
-
+			
 
 
 	}
